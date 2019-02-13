@@ -1,29 +1,3 @@
 # vue3-elm
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+此项目是对[vue2-elm](https://github.com/bailicangdu/vue2-elm)项目使用`@vue/cli`即vue3命令行工具生成版本  
+顺便也对该项目的学习:bookmark:
