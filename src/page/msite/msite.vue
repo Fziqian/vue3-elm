@@ -47,8 +47,9 @@ import headTop from 'src/components/header/head'
 import footGuide from 'src/components/footer/footGuide'
 import shopList from 'src/components/common/shoplist'
 import {msiteAddress, msiteFoodTypes, cityGuess} from 'src/service/getData'
-import 'src/plugins/swiper.min.js'
-import 'src/style/swiper.min.css'
+import Swiper from 'swiper'
+// import 'src/plugins/swiper.min.js'
+// import 'src/style/swiper.min.css'
 
 export default {
 	data(){

@@ -10,7 +10,8 @@ module.exports = {
   // 输出文件目录
   outputDir: "elm",
   assetsDir: "static",
-  publicPath: env === "development" ? "/" : "/elm/",
+  //这里的publicPath指的是相对网站的根目录的路径，如果将elm文件夹作为网站的root目录，那就是/，如果是root/elm这种方式，就是/elm/
+  publicPath: env === "development" ? "/" : "/"/* 或者/elm/ */,
   // eslint-loader 是否在保存的时候检查
   lintOnSave: false,
   // use the full build with in-browser compiler?
@@ -71,7 +72,7 @@ module.exports = {
   // https://vue-loader.vuejs.org/en/options.html
 //   vueLoader: {},
   // 生产环境是否生成 sourceMap 文件
-  productionSourceMap: true,
+  productionSourceMap: false,
   // css相关配置
   css: {
     // 是否使用css分离插件 ExtractTextPlugin
